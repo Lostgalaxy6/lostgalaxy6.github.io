@@ -13,7 +13,7 @@ const CONFIG = {
   currentlyWorkingOn: "PvPBot v3.5.0",   // set to "" to hide ticker
 
   /* ── Hero boot console lines ───────────────────────────── */
-  /* These show up in the terminal block above your typed title */
+  /* These show up in the terminal block above typed title */
   consoleLines: [
     { time: "00:00:01", text: "Cooking..."       },
     { time: "00:00:02", text: "Adding Spices..." },
@@ -22,8 +22,8 @@ const CONFIG = {
 
   /* Hero typed lines (typed out one by one) */
   heroLines: [
-    "Minecraft plugin & mod developer.",
-    "5 years deep in server architecture.",
+    "Minecraft plugin & mod dev.",
+    "5 years deep in server shi.",
     "I build things that actually work."
   ],
   heroBio: "From custom Fabric mods to fine-tuned Spigot plugins I work across the full Minecraft stack. If it runs on a server, I've probably broken and fixed it.",
@@ -169,11 +169,11 @@ const CONFIG = {
   easterEggCommands: {
     help:    "Commands: help, whoami, status, skills, uptime, sudo, version, clear, exit",
     whoami:  "Lostgalaxy — MC Dev & Server Configurator",
-    status:  "Server: ONLINE | Players: 1/1 (that's you)",
+    status:  "Server: ONLINE | Players: 1/1 (that's you lil vro)",
     skills:  "Java · Fabric API · Spigot · Paper · LuckPerms · WorldGuard · Multiverse",
-    uptime:  "5 years, 0 crashes. Roughly.",
+    uptime:  "5 years, 0 crashes, Roughly",
     version: "Portfolio v3.0 · MC 1.21.1 · Java 17",
-    sudo:    "Permission denied. Nice try.",
+    sudo:    "Permission denied. Nice try lil bro",
     exit:    "__EXIT__"
   },
 
