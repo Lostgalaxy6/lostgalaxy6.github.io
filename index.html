@@ -8,8 +8,8 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <!-- JetBrains Mono for code/terminal, Kanit for bold headings (clean + striking) -->
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Kanit:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+  <!-- JetBrains Mono for body/UI, Determination Mono for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet"/>
 
   <!-- Determination Mono (Undertale font) via CDN -->
   <style>
@@ -38,9 +38,9 @@
       --muted:      #5A7091;
       --muted2:     #7A91A8;
       --mono:       'JetBrains Mono', 'Courier New', monospace;
-      --head:       'Kanit', sans-serif;
+      --head:       'Determination', 'JetBrains Mono', monospace;
       --det:        'Determination', 'JetBrains Mono', monospace;
-      --sans:       'Kanit', sans-serif;
+      --sans:       'JetBrains Mono', 'Courier New', monospace;
     }
 
     html { scroll-behavior: smooth; }
@@ -48,10 +48,10 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: var(--sans);
+      font-family: var(--mono);
       line-height: 1.6;
       overflow-x: hidden;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     /* subtle dot grid */
@@ -321,9 +321,9 @@
     .tl:first-child { color: var(--green); }
 
     .hero-bio {
-      font-family: var(--sans);
-      font-size: 1rem;
-      font-weight: 300;
+      font-family: var(--mono);
+      font-size: 0.88rem;
+      font-weight: 400;
       color: var(--muted2);
       max-width: 520px;
       line-height: 1.8;
@@ -453,12 +453,13 @@
     }
 
     .section-sub {
-      font-size: 0.92rem;
+      font-family: var(--mono);
+      font-size: 0.82rem;
       color: var(--muted2);
       max-width: 480px;
-      line-height: 1.8;
+      line-height: 1.9;
       margin-bottom: 3.5rem;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     /* ── ABOUT ── */
@@ -470,11 +471,12 @@
     }
 
     .about-paras p {
-      font-size: 0.94rem;
+      font-family: var(--mono);
+      font-size: 0.82rem;
       color: var(--muted2);
-      line-height: 1.85;
+      line-height: 1.9;
       margin-bottom: 1.1rem;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     .about-paras p b { color: var(--text); font-weight: 600; }
@@ -656,7 +658,7 @@
       line-height: 1.7;
       margin-bottom: 1.1rem;
       flex: 1;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     .pc-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
@@ -680,10 +682,11 @@
     }
 
     .contact-left p {
-      font-size: 0.94rem;
+      font-family: var(--mono);
+      font-size: 0.82rem;
       color: var(--muted2);
-      line-height: 1.85;
-      font-weight: 300;
+      line-height: 1.9;
+      font-weight: 400;
       margin-bottom: 2rem;
     }
 
